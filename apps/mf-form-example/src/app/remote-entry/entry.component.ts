@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'micro-frontend-examples-mf-form-example-entry',
-  template: `<micro-frontend-examples-nx-welcome></micro-frontend-examples-nx-welcome>`
+  selector: 'mf-form-example-entry',
+  templateUrl: "entry.component.html"
 })
 export class RemoteEntryComponent {}
